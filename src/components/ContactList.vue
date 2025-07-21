@@ -4,11 +4,11 @@ import { onMounted } from 'vue'
 
 // *************************************** CONTACTS ******************************************
 const contacts = reactive([
-  { id: 1, firstname: 'Adam', lastname: 'Smith', phone: '250-778-2222', email: 'adam.smith80@hotmail.com' },
-  { id: 2, firstname: 'Mary', lastname: 'Jones', phone: '250-226-4562', email: 'mary.jones@gmail.com' },
-  { id: 3, firstname: 'Lucy', lastname: 'Brown', phone: '250-889-6875', email: 'lucy_b@hotmail.com' },
-  { id: 4, firstname: 'Margie', lastname: 'Adams', phone: '250-543-2658', email: 'margiee46@hotmail.com' },
-  { id: 5, firstname: 'George', lastname: 'Lark', phone: '250-545-2356', email: 'g_lark@gmail.com' },
+  { id: 1, firstname: 'Navin', lastname: 'Kumar', phone: '250-778-2222', email: 'Nk80@hotmail.com' },
+  { id: 2, firstname: 'Manoj', lastname: 'Jones', phone: '250-226-4562', email: 'jones@gmail.com' },
+  { id: 3, firstname: 'Suzal', lastname: 'Verma', phone: '250-889-6875', email: 'vermaS_b@hotmail.com' },
+  { id: 4, firstname: 'Gautam', lastname: 'Attri', phone: '250-543-2658', email: 'Attri46@hotmail.com' },
+  { id: 5, firstname: 'Shivam', lastname: 'Lark', phone: '250-545-2356', email: 'shivam@gmail.com' },
 ]);
 // Sort my array of contacts alphabetically, by last name
 contacts.sort((a, b) => a.lastname.localeCompare(b.lastname))
